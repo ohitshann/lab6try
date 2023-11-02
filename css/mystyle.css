@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, serif;
+  }
+
+header img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 5em; 
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+  }
+
+h2 {
+    font-size: 2em;
+    font-variant: normal;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav a:link {
+    color: #C3B1E1; 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px 10px 10px; 
+   
+}
+
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid grey; 
+}
+
+.box-row {
+    display: flex;
+    margin-bottom: 20px
+}
+
+.box-col {
+    padding: 10px 
+}
+
+.bow-left {
+    display: left;
+}
+
+.box-right {
+    display: right;
+
+}
+
+#email-sub input[type="email"], input[type="experience"] {
+    width: 300px;
+}
+
+#email-sub textarea {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center; 
+}
